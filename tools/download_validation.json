@@ -1,0 +1,9 @@
+{
+  "site": "https://ibcytb.github.io/SatelliteMap/",
+  "release": "https://github.com/Ibcytb/SatelliteMap/releases/tag/png-v4",
+  "public_PNGs_verified": 156,
+  "distinct_sizes": 78,
+  "all_headers_RGBA_8bit_correct": true,
+  "all_download_sizes_match_catalog": true,
+  "total_bytes": 63642187441
+}

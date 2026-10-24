@@ -4,22 +4,32 @@ v4로 보정한 전 세계 육지와 물 지도를 투명 PNG로 바로 내려�
 
 사이트: https://ibcytb.github.io/SatelliteMap/
 
+PNG 모음: https://github.com/Ibcytb/SatelliteMap/releases/tag/png-v4
+
+사이트에서 육지·물과 크기를 선택하면 미리 생성된 PNG를 바로 받습니다. `권장 크기`와 `1,000px 단위` 탭을 이용하거나, `전체 크기 목록`을 펼쳐 검색하고 각 파일을 저장할 수 있습니다.
+
 ## 준비하는 크기
 
 - 512, **1024, 1536, 2048, 3072, 4096, 6144, 8192, 12288, 16384, 24576, 32768, 49152, 65536**
 - **1000, 2000, 3000, …, 64000** — 1000px 간격의 모든 크기
 - 중복 없는 78개 크기 × 육지/물 = 총 156개 PNG
 
-모든 PNG는 가로와 세로가 같은 정사각형이며 투명 RGBA입니다. 물 지도에는 바다와 내륙 수역이 포함됩니다. 다운로드할 때 변환하지 않고 미리 생성한 파일을 받습니다.
+모든 PNG는 가로와 세로가 같은 정사각형이며 투명 RGBA입니다. 물 지도에는 바다와 내륙 수역이 포함됩니다. 다운로드할 때 변환하지 않고 미리 생성한 파일을 받습니다. 전체 156개 PNG의 합계 용량은 63,642,187,441바이트(약 59.27GiB)입니다.
 
 ## 배포 구조
 
-GitHub Pages는 `docs/`의 HTML/CSS/JavaScript와 미리보기만 서비스합니다. 큰 PNG는 `png-v4` GitHub Release의 첨부 파일로 제공합니다. 각 파일은 GitHub Release의 2GiB 제한을 검사합니다. 원본 TIFF는 `source-v4` Release에 보관합니다. 생성한 대형 PNG와 TIFF는 Git 이력에 넣지 않습니다.
+GitHub Pages는 `docs/`의 HTML/CSS/JavaScript와 미리보기만 서비스합니다. 큰 PNG는 `png-v4` GitHub Release의 첨부 파일로 제공합니다. 각 파일은 GitHub Release의 2GiB 제한을 검사합니다. 원본 TIFF는 생성 작업에서 사용하는 비공개 초안 `source-v4` Release에 보관합니다. 생성한 대형 PNG와 TIFF는 Git 이력에 넣지 않습니다.
 
 Actions의 **Build PNG library**를 실행하면 이미 올라간 PNG를 건너뛰고, 나머지를 병렬 생성합니다. 전체 크기가 준비되고 SHA-256과 크기 정보가 확인된 뒤 목록을 갱신하고 PNG Release와 Pages를 게시합니다. `catalog.json`은 파일 크기, SHA-256 및 다운로드 주소를 포함합니다.
 
 ## 보정본
 
 최대 크기는 65,536 × 65,536이며 v4 분리를 그대로 사용합니다. 작은 크기는 최근접 이웃 방식으로 축소하고 TIFF의 기존 축소 개요도 사용합니다. 축소 시 작은 섬은 생략될 수 있습니다. 512px 및 777px에서 전체 RGBA 일치, 64K에서는 전체 PNG 압축 스트림과 분산된 원본 행 일치를 검사한 변환 방식입니다.
+
+## 배포 검증
+
+전체 156개 공개 다운로드 주소의 접속, PNG RGBA 헤더, 해상도, 파일 용량을 확인했습니다. 실제 브라우저로 받은 1,536px 물 PNG와 1,000px 육지 PNG는 원본 TIFF 축소 결과의 모든 RGBA 및 목록의 SHA-256과 일치했습니다.
+
+확인 결과: [다운로드 링크 검사](tools/download_validation.json), [공개 64K PNG 원본 대조](tools/remote_validation.json), [전체 SHA-256 목록](docs/SHA256SUMS.txt).
 
 지도 영상: 사용자 제공 Bing 위성 지도. 영상에 대한 권리는 원 권리자에게 있으며, 이 저장소의 코드는 지도 영상의 사용 권한을 추가로 부여하지 않습니다.

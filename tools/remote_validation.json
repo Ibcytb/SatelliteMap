@@ -1,0 +1,46 @@
+{
+  "water": {
+    "size": [
+      65536,
+      65536
+    ],
+    "bytes": 458292738,
+    "sha256": "e06e48638c2f65a91d15b2ae9f38d6b65d098f8acac58ebf7d617a38b8238654",
+    "source_rows_compared": [
+      0,
+      94,
+      1024,
+      16000,
+      24300,
+      24355,
+      32768,
+      50000,
+      65535
+    ],
+    "full_deflate_and_scanline_count_valid": true,
+    "all_chunk_CRC_valid": true,
+    "seconds": 27.6
+  },
+  "land": {
+    "size": [
+      65536,
+      65536
+    ],
+    "bytes": 1925116296,
+    "sha256": "13970c1cdd28f845abbf563613f530818af07b53fcb59afa53155f17847d1d78",
+    "source_rows_compared": [
+      0,
+      94,
+      1024,
+      16000,
+      24300,
+      24355,
+      32768,
+      50000,
+      65535
+    ],
+    "full_deflate_and_scanline_count_valid": true,
+    "all_chunk_CRC_valid": true,
+    "seconds": 61.7
+  }
+}
