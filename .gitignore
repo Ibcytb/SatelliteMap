@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+inputs/
+exports/
+*.part
+*.tif
+*.tiff
+tools/gh.exe
