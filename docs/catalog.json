@@ -1,0 +1,1576 @@
+{
+  "schema": 1,
+  "repository": "Ibcytb/SatelliteMap",
+  "release": "png-v4",
+  "version": "v4",
+  "standard": [
+    512,
+    1024,
+    1536,
+    2048,
+    3072,
+    4096,
+    6144,
+    8192,
+    12288,
+    16384,
+    24576,
+    32768,
+    49152,
+    65536
+  ],
+  "thousands": [
+    1000,
+    2000,
+    3000,
+    4000,
+    5000,
+    6000,
+    7000,
+    8000,
+    9000,
+    10000,
+    11000,
+    12000,
+    13000,
+    14000,
+    15000,
+    16000,
+    17000,
+    18000,
+    19000,
+    20000,
+    21000,
+    22000,
+    23000,
+    24000,
+    25000,
+    26000,
+    27000,
+    28000,
+    29000,
+    30000,
+    31000,
+    32000,
+    33000,
+    34000,
+    35000,
+    36000,
+    37000,
+    38000,
+    39000,
+    40000,
+    41000,
+    42000,
+    43000,
+    44000,
+    45000,
+    46000,
+    47000,
+    48000,
+    49000,
+    50000,
+    51000,
+    52000,
+    53000,
+    54000,
+    55000,
+    56000,
+    57000,
+    58000,
+    59000,
+    60000,
+    61000,
+    62000,
+    63000,
+    64000
+  ],
+  "sizes": [
+    512,
+    1000,
+    1024,
+    1536,
+    2000,
+    2048,
+    3000,
+    3072,
+    4000,
+    4096,
+    5000,
+    6000,
+    6144,
+    7000,
+    8000,
+    8192,
+    9000,
+    10000,
+    11000,
+    12000,
+    12288,
+    13000,
+    14000,
+    15000,
+    16000,
+    16384,
+    17000,
+    18000,
+    19000,
+    20000,
+    21000,
+    22000,
+    23000,
+    24000,
+    24576,
+    25000,
+    26000,
+    27000,
+    28000,
+    29000,
+    30000,
+    31000,
+    32000,
+    32768,
+    33000,
+    34000,
+    35000,
+    36000,
+    37000,
+    38000,
+    39000,
+    40000,
+    41000,
+    42000,
+    43000,
+    44000,
+    45000,
+    46000,
+    47000,
+    48000,
+    49000,
+    49152,
+    50000,
+    51000,
+    52000,
+    53000,
+    54000,
+    55000,
+    56000,
+    57000,
+    58000,
+    59000,
+    60000,
+    61000,
+    62000,
+    63000,
+    64000,
+    65536
+  ],
+  "complete": false,
+  "fileCount": 156,
+  "assets": [
+    {
+      "layer": "land",
+      "size": 512,
+      "filename": "Land_v4_512x512.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_512x512.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 1000,
+      "filename": "Land_v4_1000x1000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_1000x1000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 1024,
+      "filename": "Land_v4_1024x1024.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_1024x1024.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 1536,
+      "filename": "Land_v4_1536x1536.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_1536x1536.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 2000,
+      "filename": "Land_v4_2000x2000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_2000x2000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 2048,
+      "filename": "Land_v4_2048x2048.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_2048x2048.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 3000,
+      "filename": "Land_v4_3000x3000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_3000x3000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 3072,
+      "filename": "Land_v4_3072x3072.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_3072x3072.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 4000,
+      "filename": "Land_v4_4000x4000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_4000x4000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 4096,
+      "filename": "Land_v4_4096x4096.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_4096x4096.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 5000,
+      "filename": "Land_v4_5000x5000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_5000x5000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 6000,
+      "filename": "Land_v4_6000x6000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_6000x6000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 6144,
+      "filename": "Land_v4_6144x6144.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_6144x6144.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 7000,
+      "filename": "Land_v4_7000x7000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_7000x7000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 8000,
+      "filename": "Land_v4_8000x8000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_8000x8000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 8192,
+      "filename": "Land_v4_8192x8192.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_8192x8192.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 9000,
+      "filename": "Land_v4_9000x9000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_9000x9000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 10000,
+      "filename": "Land_v4_10000x10000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_10000x10000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 11000,
+      "filename": "Land_v4_11000x11000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_11000x11000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 12000,
+      "filename": "Land_v4_12000x12000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_12000x12000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 12288,
+      "filename": "Land_v4_12288x12288.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_12288x12288.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 13000,
+      "filename": "Land_v4_13000x13000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_13000x13000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 14000,
+      "filename": "Land_v4_14000x14000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_14000x14000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 15000,
+      "filename": "Land_v4_15000x15000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_15000x15000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 16000,
+      "filename": "Land_v4_16000x16000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_16000x16000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 16384,
+      "filename": "Land_v4_16384x16384.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_16384x16384.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 17000,
+      "filename": "Land_v4_17000x17000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_17000x17000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 18000,
+      "filename": "Land_v4_18000x18000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_18000x18000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 19000,
+      "filename": "Land_v4_19000x19000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_19000x19000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 20000,
+      "filename": "Land_v4_20000x20000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_20000x20000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 21000,
+      "filename": "Land_v4_21000x21000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_21000x21000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 22000,
+      "filename": "Land_v4_22000x22000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_22000x22000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 23000,
+      "filename": "Land_v4_23000x23000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_23000x23000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 24000,
+      "filename": "Land_v4_24000x24000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_24000x24000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 24576,
+      "filename": "Land_v4_24576x24576.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_24576x24576.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 25000,
+      "filename": "Land_v4_25000x25000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_25000x25000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 26000,
+      "filename": "Land_v4_26000x26000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_26000x26000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 27000,
+      "filename": "Land_v4_27000x27000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_27000x27000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 28000,
+      "filename": "Land_v4_28000x28000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_28000x28000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 29000,
+      "filename": "Land_v4_29000x29000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_29000x29000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 30000,
+      "filename": "Land_v4_30000x30000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_30000x30000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 31000,
+      "filename": "Land_v4_31000x31000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_31000x31000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 32000,
+      "filename": "Land_v4_32000x32000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_32000x32000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 32768,
+      "filename": "Land_v4_32768x32768.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_32768x32768.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 33000,
+      "filename": "Land_v4_33000x33000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_33000x33000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 34000,
+      "filename": "Land_v4_34000x34000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_34000x34000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 35000,
+      "filename": "Land_v4_35000x35000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_35000x35000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 36000,
+      "filename": "Land_v4_36000x36000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_36000x36000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 37000,
+      "filename": "Land_v4_37000x37000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_37000x37000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 38000,
+      "filename": "Land_v4_38000x38000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_38000x38000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 39000,
+      "filename": "Land_v4_39000x39000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_39000x39000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 40000,
+      "filename": "Land_v4_40000x40000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_40000x40000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 41000,
+      "filename": "Land_v4_41000x41000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_41000x41000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 42000,
+      "filename": "Land_v4_42000x42000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_42000x42000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 43000,
+      "filename": "Land_v4_43000x43000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_43000x43000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 44000,
+      "filename": "Land_v4_44000x44000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_44000x44000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 45000,
+      "filename": "Land_v4_45000x45000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_45000x45000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 46000,
+      "filename": "Land_v4_46000x46000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_46000x46000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 47000,
+      "filename": "Land_v4_47000x47000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_47000x47000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 48000,
+      "filename": "Land_v4_48000x48000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_48000x48000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 49000,
+      "filename": "Land_v4_49000x49000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_49000x49000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 49152,
+      "filename": "Land_v4_49152x49152.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_49152x49152.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 50000,
+      "filename": "Land_v4_50000x50000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_50000x50000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 51000,
+      "filename": "Land_v4_51000x51000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_51000x51000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 52000,
+      "filename": "Land_v4_52000x52000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_52000x52000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 53000,
+      "filename": "Land_v4_53000x53000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_53000x53000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 54000,
+      "filename": "Land_v4_54000x54000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_54000x54000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 55000,
+      "filename": "Land_v4_55000x55000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_55000x55000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 56000,
+      "filename": "Land_v4_56000x56000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_56000x56000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 57000,
+      "filename": "Land_v4_57000x57000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_57000x57000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 58000,
+      "filename": "Land_v4_58000x58000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_58000x58000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 59000,
+      "filename": "Land_v4_59000x59000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_59000x59000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 60000,
+      "filename": "Land_v4_60000x60000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_60000x60000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 61000,
+      "filename": "Land_v4_61000x61000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_61000x61000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 62000,
+      "filename": "Land_v4_62000x62000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_62000x62000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 63000,
+      "filename": "Land_v4_63000x63000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_63000x63000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 64000,
+      "filename": "Land_v4_64000x64000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_64000x64000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "land",
+      "size": 65536,
+      "filename": "Land_v4_65536x65536.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Land_v4_65536x65536.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 512,
+      "filename": "Water_v4_512x512.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_512x512.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 1000,
+      "filename": "Water_v4_1000x1000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_1000x1000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 1024,
+      "filename": "Water_v4_1024x1024.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_1024x1024.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 1536,
+      "filename": "Water_v4_1536x1536.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_1536x1536.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 2000,
+      "filename": "Water_v4_2000x2000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_2000x2000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 2048,
+      "filename": "Water_v4_2048x2048.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_2048x2048.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 3000,
+      "filename": "Water_v4_3000x3000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_3000x3000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 3072,
+      "filename": "Water_v4_3072x3072.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_3072x3072.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 4000,
+      "filename": "Water_v4_4000x4000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_4000x4000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 4096,
+      "filename": "Water_v4_4096x4096.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_4096x4096.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 5000,
+      "filename": "Water_v4_5000x5000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_5000x5000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 6000,
+      "filename": "Water_v4_6000x6000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_6000x6000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 6144,
+      "filename": "Water_v4_6144x6144.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_6144x6144.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 7000,
+      "filename": "Water_v4_7000x7000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_7000x7000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 8000,
+      "filename": "Water_v4_8000x8000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_8000x8000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 8192,
+      "filename": "Water_v4_8192x8192.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_8192x8192.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 9000,
+      "filename": "Water_v4_9000x9000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_9000x9000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 10000,
+      "filename": "Water_v4_10000x10000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_10000x10000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 11000,
+      "filename": "Water_v4_11000x11000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_11000x11000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 12000,
+      "filename": "Water_v4_12000x12000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_12000x12000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 12288,
+      "filename": "Water_v4_12288x12288.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_12288x12288.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 13000,
+      "filename": "Water_v4_13000x13000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_13000x13000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 14000,
+      "filename": "Water_v4_14000x14000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_14000x14000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 15000,
+      "filename": "Water_v4_15000x15000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_15000x15000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 16000,
+      "filename": "Water_v4_16000x16000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_16000x16000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 16384,
+      "filename": "Water_v4_16384x16384.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_16384x16384.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 17000,
+      "filename": "Water_v4_17000x17000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_17000x17000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 18000,
+      "filename": "Water_v4_18000x18000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_18000x18000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 19000,
+      "filename": "Water_v4_19000x19000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_19000x19000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 20000,
+      "filename": "Water_v4_20000x20000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_20000x20000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 21000,
+      "filename": "Water_v4_21000x21000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_21000x21000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 22000,
+      "filename": "Water_v4_22000x22000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_22000x22000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 23000,
+      "filename": "Water_v4_23000x23000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_23000x23000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 24000,
+      "filename": "Water_v4_24000x24000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_24000x24000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 24576,
+      "filename": "Water_v4_24576x24576.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_24576x24576.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 25000,
+      "filename": "Water_v4_25000x25000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_25000x25000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 26000,
+      "filename": "Water_v4_26000x26000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_26000x26000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 27000,
+      "filename": "Water_v4_27000x27000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_27000x27000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 28000,
+      "filename": "Water_v4_28000x28000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_28000x28000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 29000,
+      "filename": "Water_v4_29000x29000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_29000x29000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 30000,
+      "filename": "Water_v4_30000x30000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_30000x30000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 31000,
+      "filename": "Water_v4_31000x31000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_31000x31000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 32000,
+      "filename": "Water_v4_32000x32000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_32000x32000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 32768,
+      "filename": "Water_v4_32768x32768.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_32768x32768.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 33000,
+      "filename": "Water_v4_33000x33000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_33000x33000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 34000,
+      "filename": "Water_v4_34000x34000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_34000x34000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 35000,
+      "filename": "Water_v4_35000x35000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_35000x35000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 36000,
+      "filename": "Water_v4_36000x36000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_36000x36000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 37000,
+      "filename": "Water_v4_37000x37000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_37000x37000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 38000,
+      "filename": "Water_v4_38000x38000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_38000x38000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 39000,
+      "filename": "Water_v4_39000x39000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_39000x39000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 40000,
+      "filename": "Water_v4_40000x40000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_40000x40000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 41000,
+      "filename": "Water_v4_41000x41000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_41000x41000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 42000,
+      "filename": "Water_v4_42000x42000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_42000x42000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 43000,
+      "filename": "Water_v4_43000x43000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_43000x43000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 44000,
+      "filename": "Water_v4_44000x44000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_44000x44000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 45000,
+      "filename": "Water_v4_45000x45000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_45000x45000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 46000,
+      "filename": "Water_v4_46000x46000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_46000x46000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 47000,
+      "filename": "Water_v4_47000x47000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_47000x47000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 48000,
+      "filename": "Water_v4_48000x48000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_48000x48000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 49000,
+      "filename": "Water_v4_49000x49000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_49000x49000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 49152,
+      "filename": "Water_v4_49152x49152.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_49152x49152.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 50000,
+      "filename": "Water_v4_50000x50000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_50000x50000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 51000,
+      "filename": "Water_v4_51000x51000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_51000x51000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 52000,
+      "filename": "Water_v4_52000x52000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_52000x52000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 53000,
+      "filename": "Water_v4_53000x53000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_53000x53000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 54000,
+      "filename": "Water_v4_54000x54000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_54000x54000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 55000,
+      "filename": "Water_v4_55000x55000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_55000x55000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 56000,
+      "filename": "Water_v4_56000x56000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_56000x56000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 57000,
+      "filename": "Water_v4_57000x57000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_57000x57000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 58000,
+      "filename": "Water_v4_58000x58000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_58000x58000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 59000,
+      "filename": "Water_v4_59000x59000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_59000x59000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 60000,
+      "filename": "Water_v4_60000x60000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_60000x60000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 61000,
+      "filename": "Water_v4_61000x61000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_61000x61000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 62000,
+      "filename": "Water_v4_62000x62000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_62000x62000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 63000,
+      "filename": "Water_v4_63000x63000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_63000x63000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 64000,
+      "filename": "Water_v4_64000x64000.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_64000x64000.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    },
+    {
+      "layer": "water",
+      "size": 65536,
+      "filename": "Water_v4_65536x65536.png",
+      "url": "https://github.com/Ibcytb/SatelliteMap/releases/download/png-v4/Water_v4_65536x65536.png",
+      "bytes": null,
+      "sha256": null,
+      "ready": false
+    }
+  ]
+}

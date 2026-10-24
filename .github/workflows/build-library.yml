@@ -1,0 +1,89 @@
+name: Build PNG library
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: png-library-v4
+  cancel-in-progress: false
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      upload_url: ${{ steps.plan.outputs.upload_url }}
+      release_id: ${{ steps.plan.outputs.release_id }}
+      land_source: ${{ steps.plan.outputs.land_source }}
+      water_source: ${{ steps.plan.outputs.water_source }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: plan
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/ci_plan.py
+  build:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 16
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    name: ${{ matrix.layer }} / group ${{ matrix.bucket }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: tools/requirements.txt
+      - run: pip install -r tools/requirements.txt
+      - name: Generate, verify and upload PNGs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAYER: ${{ matrix.layer }}
+          SIZES: ${{ toJSON(matrix.sizes) }}
+          SOURCE_URL: ${{ matrix.layer == 'land' && needs.plan.outputs.land_source || needs.plan.outputs.water_source }}
+          UPLOAD_URL: ${{ needs.plan.outputs.upload_url }}
+        run: python tools/ci_build.py
+  finalize:
+    needs: [plan, build]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify all 156 PNG assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_ID: ${{ needs.plan.outputs.release_id }}
+        run: python tools/ci_finalize.py
+      - name: Save verified download catalog
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/catalog.json docs/catalog.js docs/SHA256SUMS.txt
+          git diff --cached --quiet || git commit -m 'Publish verified v4 PNG download catalog'
+          git push
+      - name: Publish the complete PNG release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release edit png-v4 --repo "$GITHUB_REPOSITORY" --draft=false --latest --notes '156 verified transparent PNGs in 78 resolutions. Choose land or water at the download site.'
+  pages:
+    needs: finalize
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - uses: actions/deploy-pages@v4
+        id: deploy
