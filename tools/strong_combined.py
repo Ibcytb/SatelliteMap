@@ -152,7 +152,7 @@ def build_shard(size,index,upload_url):
     print('SHARD UPLOADED',size,index,round(time.time()-begin,1),'seconds',flush=True)
 
 
-def assemble(size,remote,upload_url):
+def assemble(size,remote,upload_url,compression='Zopfli (lossless)'):
     begin = time.time()
     output = Path('exports')
     output.mkdir(exist_ok=True)
@@ -203,7 +203,7 @@ def assemble(size,remote,upload_url):
     info = dict(layer='both',size=size,width=size,height=size,filename=destination.name,
                 bytes=length,sha256=digest,format='PNG',mode='RGB',version='v4',
                 png_crc_verified=True,png_stream_verified=True,
-                compression='Zopfli (lossless)',elapsed_seconds=round(time.time()-begin,2))
+                compression=compression,elapsed_seconds=round(time.time()-begin,2))
     metadata = destination.with_suffix('.png.json')
     metadata.write_text(json.dumps(info,indent=2),encoding='utf-8')
     published = upload(upload_url,destination,'image/png')

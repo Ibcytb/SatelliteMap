@@ -6,7 +6,7 @@
 #include <zopfli/deflate.h>
 
 int main(int argc, char **argv) {
-    if (argc != 2) return 2;
+    if (argc < 2 || argc > 3) return 2;
     size_t capacity = 1024 * 1024, length = 0;
     unsigned char *input = malloc(capacity);
     if (!input) return 3;
@@ -24,7 +24,8 @@ int main(int argc, char **argv) {
     if (ferror(stdin)) return 4;
     ZopfliOptions options;
     ZopfliInitOptions(&options);
-    options.numiterations = 3;
+    options.numiterations = argc == 3 ? atoi(argv[2]) : 3;
+    if (options.numiterations < 1) return 2;
     unsigned char bit_pointer = 0, *output = NULL;
     size_t output_length = 0;
     int final = atoi(argv[1]) ? 1 : 0;
