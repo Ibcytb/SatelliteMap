@@ -5,7 +5,7 @@ r=releases();source=next(x for x in r if x['tag_name']==SOURCE_RELEASE);dest=nex
 source_assets=assets(source['id']);existing={a['name'] for a in assets(dest['id'])}
 matrix=[]
 for layer in LAYERS:
-    missing=[n for n in SIZES if filename(layer,n) not in existing or filename(layer,n)+'.json' not in existing]
+    missing=[n for n in SIZES if n<=int(os.environ.get('MAX_SIZE','65536')) and (filename(layer,n) not in existing or filename(layer,n)+'.json' not in existing)]
     buckets=[[] for _ in range(min(16 if layer=='both' else 8,len(missing)))];weights=[0]*len(buckets)
     for n in reversed(missing):
         i=min(range(len(buckets)),key=weights.__getitem__);buckets[i].append(n);weights[i]+=n*n

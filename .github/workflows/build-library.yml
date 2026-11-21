@@ -1,6 +1,11 @@
 name: Build PNG library
 on:
   workflow_dispatch:
+    inputs:
+      max_size:
+        description: Largest preset to generate (lower values skip publication)
+        type: number
+        default: 65536
 permissions:
   contents: write
 concurrency:
@@ -20,6 +25,7 @@ jobs:
       - id: plan
         env:
           GH_TOKEN: ${{ github.token }}
+          MAX_SIZE: ${{ inputs.max_size || 65536 }}
         run: python tools/ci_plan.py
   build:
     needs: plan
@@ -49,6 +55,7 @@ jobs:
           UPLOAD_URL: ${{ needs.plan.outputs.upload_url }}
         run: python tools/ci_build.py
   finalize:
+    if: ${{ !inputs.max_size || inputs.max_size >= 65536 }}
     needs: [plan, build]
     runs-on: ubuntu-latest
     steps:
