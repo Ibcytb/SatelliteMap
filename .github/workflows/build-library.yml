@@ -44,6 +44,8 @@ jobs:
           LAYER: ${{ matrix.layer }}
           SIZES: ${{ toJSON(matrix.sizes) }}
           SOURCE_URL: ${{ matrix.layer == 'land' && needs.plan.outputs.land_source || needs.plan.outputs.water_source }}
+          LAND_SOURCE_URL: ${{ needs.plan.outputs.land_source }}
+          WATER_SOURCE_URL: ${{ needs.plan.outputs.water_source }}
           UPLOAD_URL: ${{ needs.plan.outputs.upload_url }}
         run: python tools/ci_build.py
   finalize:
@@ -54,7 +56,7 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-      - name: Verify all 156 PNG assets
+      - name: Verify all PNG assets
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_ID: ${{ needs.plan.outputs.release_id }}
@@ -70,7 +72,7 @@ jobs:
       - name: Publish the complete PNG release
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release edit png-v4 --repo "$GITHUB_REPOSITORY" --draft=false --latest --notes '156 verified transparent PNGs in 78 resolutions. Choose land or water at the download site.'
+        run: gh release edit png-v4 --repo "$GITHUB_REPOSITORY" --draft=false --latest --notes '234 verified PNGs in 78 resolutions. Land, water, and one combined map per resolution.'
   pages:
     needs: finalize
     runs-on: ubuntu-latest

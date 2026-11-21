@@ -5,7 +5,7 @@ SOURCE_RELEASE = 'source-v4'
 STANDARD = [512,1024,1536,2048,3072,4096,6144,8192,12288,16384,24576,32768,49152,65536]
 THOUSANDS = list(range(1000,64001,1000))
 SIZES = sorted(set(STANDARD + THOUSANDS))
-LAYERS = {'land':'Land','water':'Water'}
+LAYERS = {'land':'Land','water':'Water','both':'Combined'}
 assert len(SIZES) == 78
 
 def filename(layer,size):
