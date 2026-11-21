@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="dark">
   <title>SatelliteMap</title>
   <link rel="icon" href="favicon.svg?v=mono-1" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=mono-1">
+  <link rel="stylesheet" href="style.css?v=combined-1">
 </head>
 <body>
 <main class="shell">
@@ -17,6 +17,7 @@
         <div class="tabs" role="tablist" aria-label="미리볼 지도">
           <button id="tab-land" role="tab" aria-selected="false" aria-controls="map-stage" data-preview="land">육지</button>
           <button id="tab-water" role="tab" aria-selected="true" aria-controls="map-stage" data-preview="water">바다·물</button>
+          <button id="tab-both" role="tab" aria-selected="false" aria-controls="map-stage" data-preview="both">둘 다</button>
         </div>
         <div class="backgrounds" role="group" aria-label="미리보기 배경">
           <button class="swatch check" data-bg="check" aria-label="체크무늬 배경" aria-pressed="true"></button>
@@ -24,13 +25,17 @@
           <button class="swatch black" data-bg="black" aria-label="검정 배경" aria-pressed="false"></button>
         </div>
       </div>
-      <div class="map-stage" id="map-stage" role="tabpanel" aria-labelledby="tab-water" data-bg="check">
-        <img id="preview-land" src="assets/land.png" alt="육지 지도" draggable="false" hidden>
-        <img id="preview-water" src="assets/water.png" alt="바다와 내륙 수역 지도" draggable="false">
+      <div class="map-stage" id="map-stage" role="tabpanel" aria-labelledby="tab-water" tabindex="0" data-bg="check">
+        <div id="map-transform" class="map-transform">
+          <img class="map-image" id="preview-land" data-src="assets/land.png" alt="육지 지도" draggable="false" decoding="async" hidden>
+          <img class="map-image" id="preview-water" data-src="assets/water.png" alt="바다와 내륙 수역 지도" draggable="false" decoding="async">
+          <img class="map-image" id="preview-both" data-src="assets/both.png" alt="육지와 바다가 합쳐진 지도" draggable="false" decoding="async" hidden>
+        </div>
+        <p id="preview-error" role="status" hidden>미리보기를 불러오지 못했습니다.</p>
         <div class="zoom">
           <button id="zoom-out" aria-label="지도 축소">−</button>
           <button id="zoom-in" aria-label="지도 확대">+</button>
-          <button id="zoom-reset" aria-label="확대 초기화">1:1</button>
+          <button id="zoom-reset" aria-label="지도 전체 맞춤">맞춤</button>
         </div>
       </div>
     </section>
@@ -52,14 +57,13 @@
         <div class="preset-grid" role="group" aria-label="크기 프리셋"></div>
         <label class="sr-only" for="size">크기 입력</label>
         <div class="size-input">
-          <input id="size" type="number" min="512" max="65536" step="1" value="4096" aria-describedby="size-error">
+          <input id="size" type="text" inputmode="numeric" maxlength="12" value="4096" autocomplete="off" spellcheck="false" aria-describedby="size-error">
           <span>× <span id="mirror-size">4,096</span> px</span>
         </div>
         <p id="size-error" role="alert" hidden></p>
       </fieldset>
       <div class="output"><span id="output-size">4,096 × 4,096 px</span><span id="file-bytes">—</span></div>
-      <button id="export" class="download-button" disabled>PNG 다운로드 <span aria-hidden="true">↓</span></button>
-      <div id="jobs" class="jobs" aria-live="polite" hidden></div>
+      <a id="export" class="download-button" aria-disabled="true" tabindex="-1">PNG 다운로드</a>
     </section>
   </div>
   <details class="library">
@@ -67,12 +71,13 @@
     <div class="library-inner">
       <label class="sr-only" for="catalog-search">크기 검색</label>
       <input id="catalog-search" type="search" placeholder="크기 검색" inputmode="numeric">
-      <div class="table-wrap"><table><thead><tr><th scope="col">px</th><th scope="col">육지</th><th scope="col">바다·물</th></tr></thead><tbody id="catalog-rows"></tbody></table></div>
+      <div class="table-wrap"><table><thead><tr><th scope="col">px</th><th scope="col">육지</th><th scope="col">바다·물</th><th scope="col">둘 다</th></tr></thead><tbody id="catalog-rows"></tbody></table></div>
     </div>
   </details>
   <footer><a href="https://github.com/Ibcytb/SatelliteMap">GitHub</a><a href="SHA256SUMS.txt" download>SHA-256</a></footer>
 </main>
-<script src="catalog.js"></script>
-<script src="app.js?v=mono-1"></script>
+<script src="catalog.js?v=combined-1"></script>
+<script src="model.js?v=combined-1"></script>
+<script src="app.js?v=combined-1"></script>
 </body>
 </html>

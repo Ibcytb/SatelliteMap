@@ -1,0 +1,41 @@
+{
+  "verifiedAt": "2026-11-21T04:21:35Z",
+  "files": [
+    {
+      "size": 512,
+      "width": 512,
+      "height": 512,
+      "allPixelsMatch": true,
+      "sha256Verified": true,
+      "sha256": {
+        "land": "4857d75997e4edb9136db218535fc207059b74582f5b0469e98f2af182d7c407",
+        "water": "78acef6f63f4c23f36f9759140e99825cda11ec5299f89393f4c48426f365cee",
+        "both": "e985e8fb0bea73da60fc7c677d661ff5d99160304372e7be955de183594cd445"
+      }
+    },
+    {
+      "size": 1000,
+      "width": 1000,
+      "height": 1000,
+      "allPixelsMatch": true,
+      "sha256Verified": true,
+      "sha256": {
+        "land": "15c723df904514798ae8d96f62c2992fabd49654f8fffbaba5502d386136fb8a",
+        "water": "cf19c8b270a069e9b4528ac3c518dc138f9c7975493bff2c68cfd51ea5fe8700",
+        "both": "579ee98c1ad161211b67727d90adc39cb93594acb5bbefab7b221a226e8ee45a"
+      }
+    },
+    {
+      "size": 1536,
+      "width": 1536,
+      "height": 1536,
+      "allPixelsMatch": true,
+      "sha256Verified": true,
+      "sha256": {
+        "land": "c8d5a9ad2454c852ae77f14fde6a2be3de150edc358be8a7e7c6cfc86442885d",
+        "water": "6f4a19622822f5c3f0b407a643503f63e22f0ecb155576673557fe86bcb8dc85",
+        "both": "c16e47a6aa3e21326ff01a947f492677ed5be718e9d2e0a624546607eba051df"
+      }
+    }
+  ]
+}
