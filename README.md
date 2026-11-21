@@ -34,6 +34,6 @@ Actions의 **Build PNG library**를 실행하면 이미 올라간 PNG를 건너�
 
 회귀 검사: `node --test tools/test_catalog.cjs`, `python -m unittest discover -s tools -p "test_*.py"` (후자는 Pillow 필요).
 
-확인 결과: [다운로드 링크 검사](tools/download_validation.json), [공개 64K PNG 원본 대조](tools/remote_validation.json), [전체 SHA-256 목록](docs/SHA256SUMS.txt).
+확인 결과: [234개 다운로드 링크 검사](tools/download_validation.json), [합성 PNG 픽셀 대조](tools/combined_pixel_validation.json), [실제 브라우저 다운로드](tools/browser_download_validation.json), [공개 64K PNG 원본 대조](tools/remote_validation.json), [전체 SHA-256 목록](docs/SHA256SUMS.txt).
 
 지도 영상: 사용자 제공 Bing 위성 지도. 영상에 대한 권리는 원 권리자에게 있으며, 이 저장소의 코드는 지도 영상의 사용 권한을 추가로 부여하지 않습니다.

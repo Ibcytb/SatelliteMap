@@ -1,0 +1,53 @@
+{
+  "verifiedAt": "2026-11-21T05:24:48Z",
+  "site": "https://ibcytb.github.io/SatelliteMap/",
+  "liveDownload": {
+    "filename": "Combined_v4_512x512.png",
+    "width": 512,
+    "height": 512,
+    "mode": "RGB",
+    "sha256": "e985e8fb0bea73da60fc7c677d661ff5d99160304372e7be955de183594cd445",
+    "verified": true
+  },
+  "previewTests": [
+    {
+      "layer": "both",
+      "size": 512,
+      "width": 512,
+      "height": 512,
+      "sha256": "e985e8fb0bea73da60fc7c677d661ff5d99160304372e7be955de183594cd445",
+      "verified": true
+    },
+    {
+      "layer": "both",
+      "size": 1000,
+      "width": 1000,
+      "height": 1000,
+      "sha256": "579ee98c1ad161211b67727d90adc39cb93594acb5bbefab7b221a226e8ee45a",
+      "verified": true
+    },
+    {
+      "layer": "both",
+      "size": 1536,
+      "width": 1536,
+      "height": 1536,
+      "sha256": "c16e47a6aa3e21326ff01a947f492677ed5be718e9d2e0a624546607eba051df",
+      "verified": true
+    }
+  ],
+  "liveChecks": {
+    "tableRows": 78,
+    "tableDownloadLinks": 234,
+    "invalidSizeDisablesDownload": true,
+    "selectionSynchronized": true,
+    "staleSizeUrlFixed": true,
+    "consoleErrors": 0,
+    "mobile": {
+      "viewportWidth": 390,
+      "pageWidth": 375,
+      "mapWidth": 349,
+      "mapHeight": 349,
+      "horizontalOverflow": false
+    }
+  }
+}
